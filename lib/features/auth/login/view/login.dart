@@ -43,6 +43,7 @@ class _LoginState extends State<Login> {
                 ),
                 SizedBox(height: 20,),
                 InkWell(
+                  onTap: (){Get.to(() => BottomNavigation());},
                   child: Container(
                     height: 50,
                     width: double.infinity,

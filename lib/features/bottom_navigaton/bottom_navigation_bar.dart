@@ -43,8 +43,8 @@ class _BottomNavigationState extends State<BottomNavigation> {
           child: Padding(
             padding: EdgeInsets.all(10),
             child: Image.asset(
-              'assets/image/home/home.png',
-              fit: BoxFit.cover,
+              'assets/bottom_icon/home.png',
+              fit: BoxFit.cover,color: AppColors.White,
             ),
           ),
           onPressed: () {
