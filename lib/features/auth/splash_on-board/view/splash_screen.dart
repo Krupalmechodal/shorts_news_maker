@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../res/color/app_colors.dart';
 import '../../../bottom_navigaton/bottom_navigation_bar.dart';
 import '../../../bottom_navigaton/bottom_pages/home/home.dart';
+import '../../login/view/login.dart';
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -17,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => BottomNavigation()), // Replace NextScreen with your desired screen
+        MaterialPageRoute(builder: (context) => Login()), // Replace NextScreen with your desired screen
       );
     });
   }

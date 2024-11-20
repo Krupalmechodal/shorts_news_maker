@@ -78,19 +78,20 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 children: [
                   Icon(
                     CupertinoIcons.person_alt,size: 30,
-                    color: currentTab == 1 ? AppColors.btmOrange : Colors.white,
+                    color: currentTab == 1 ? AppColors.Black : Colors.white,
                   ),
                   Text(
                     "Profile",
                     style: GoogleFonts.inter(
                       fontSize: 12,
                       fontWeight: FontWeight.w700,
-                      color: currentTab == 1 ? AppColors.btmOrange : Colors.white,
+                      color: currentTab == 1 ? AppColors.Black : Colors.white,
                     ),
                   )
                 ],
               ),
             ),
+            SizedBox(width: 10,),
             // Right Side Buttons
             GestureDetector(
               onTap: () {
@@ -103,15 +104,15 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(
-                    Icons.notifications_active,size: 30,
-                    color: currentTab == 3 ? AppColors.btmOrange : Colors.white,
+                    Icons.fact_check_sharp,size: 30,
+                    color: currentTab == 3 ? AppColors.Black : Colors.white,
                   ),
                   Text(
                     "Subscription",
                     style: GoogleFonts.inter(
                       fontSize: 12,
                       fontWeight: FontWeight.w700,
-                      color: currentTab == 3 ? AppColors.btmOrange : Colors.white,
+                      color: currentTab == 3 ? AppColors.Black : Colors.white,
                     ),
                   ),
                 ],
